@@ -7,7 +7,7 @@ Pycoconnector is a Python library that helps to find  a defined Pico, execute co
 Each Pico has a file info.txt in the root folder. The first line of this file contains a keyword under which the Pico can be found. The picoconnector_xx.py lib has functions to find this and connect.
 
 ### Code example
-```python:
+```python
 from picoconnector_01 import scan_for_picos, scan_picoinfo, Pico
 import time
 
