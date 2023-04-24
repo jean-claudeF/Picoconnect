@@ -153,15 +153,14 @@ class Pico():
             print("Interrupting running program\n")
             self.port.write(b'\x03\x03')
              
-    def send_cmd(self, cmd, verbose = False, timeout = 1):
+    def send_cmd(self, cmd, verbose = True, timeout = 1):
         '''send command to Pico
             cmd is a Python code line'''
         if verbose:
             print("CMD: ", cmd)
         self.port.write(cmd.encode('utf-8') + b'\r')
         
-        if verbose:
-            self.get_answer()
+        self.get_answer()
            
         
         
