@@ -63,6 +63,6 @@ if __name__ == "__main__":
  ## Connector GUI
  After trying to use the picoconnector module with a pure tkinter GUI, where everything was nicely decoupled, I came back to use something I had developed earlier: a textbox class directly connected to the serial interface.
 This made it much easier. The result is found in the gui folder. Feel free to improve it.
-
+![Picture](/gui/picoconnect.jpg)
 
 
