@@ -5,6 +5,8 @@ Pycoconnector is a Python library that helps to find  a defined Pico, execute co
 
 ### Working principle
 Each Pico has a file info.txt in the root folder. The first line of this file contains a keyword under which the Pico can be found. The picoconnector_xx.py lib has functions to find this and connect.
+I have described this in more detail here:
+[website] http://staff.ltam.lu/feljc/electronics/uPython/Pico_communication.pdf
 
 ### Code example
 ```python
