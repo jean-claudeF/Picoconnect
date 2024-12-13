@@ -1,4 +1,5 @@
 # Picoconnect
+![Picture](2picos.png)
 If you have more than one Raspi Pico connected to a computer, things can get confusing. Which Pico is on which port?
 Maybe the name of the ports have even changed since the last time you connected, so noting the port names is no solution.
 Pycoconnector is a Python library that helps to find  a defined Pico, execute commands on it etc.)
