@@ -12,8 +12,11 @@ I have described the first ideas in more detail here:
 
 ### Versions
 
-The first versions were based on communication in normal REPL mode. The advantage is that debugging is easyer. The disadvantage is that it is a bit slow.
-I am developing a new version picoconnect_paxx.py that uses the paste mode.
+- picoconnector_xx
+The first versions were based on communication in normal REPL mode. The advantage is that debugging is easyer.
+The disadvantage is that it is a bit slow.
+- picoconnector GUI uses a Tkinter textbox connected directly to the serial port
+- picoconnect_paxx: I am developing a new version  that uses the paste mode. This should run faster.
 
 ### Code example for picoconnect_pa01:
 ```python
